@@ -1,0 +1,6 @@
+@mhma_kan_HostAddress = http://localhost:5144
+
+GET {{mhma_kan_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
