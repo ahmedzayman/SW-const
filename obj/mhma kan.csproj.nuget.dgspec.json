@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ASP\\mhma kan\\mhma kan.csproj": {}
+    "D:\\Assignment\\SW-const\\mhma kan.csproj": {}
   },
   "projects": {
-    "D:\\ASP\\mhma kan\\mhma kan.csproj": {
+    "D:\\Assignment\\SW-const\\mhma kan.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ASP\\mhma kan\\mhma kan.csproj",
+        "projectUniqueName": "D:\\Assignment\\SW-const\\mhma kan.csproj",
         "projectName": "mhma kan",
-        "projectPath": "D:\\ASP\\mhma kan\\mhma kan.csproj",
+        "projectPath": "D:\\Assignment\\SW-const\\mhma kan.csproj",
         "packagesPath": "C:\\Users\\Mr.Ahmed\\.nuget\\packages\\",
-        "outputPath": "D:\\ASP\\mhma kan\\obj\\",
+        "outputPath": "D:\\Assignment\\SW-const\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Mr.Ahmed\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Mr.Ahmed\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -61,6 +55,10 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.design": {
               "target": "Package",
               "version": "[9.0.0, )"
             }
